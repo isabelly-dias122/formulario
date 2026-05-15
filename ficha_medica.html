@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="ficha_medica.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha Médica</title>
+</head>
+<body>
+    <h2>Ficha Médica</h2>
+    <form>
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="Nome" required><br>
+        <br>
+
+
+        <label for="data_nascimento">Data de nascimento:</label><br>
+        <input type="date" id="data_nascimento" name="Data de nascimento" required><br>
+        <br>
+
+
+    <label for="convenio">Possui Convênio:</label><br>
+    <input type="radio" id="convenio" name="Convênio"  value="Sim" required>Sim<br>
+    <input type="radio" id="convenio" name="Convênio" value="Não" required>Não<br>
+    <label for="qual">Se sim, Qual?</label><br>
+    <input type="text" id="convenio" name="Se sim, Qual?"><br>
+    <br>
+
+
+    <label for="tipo_sanguineo">Tipo Sanguineo:</label><br>
+    <input type="radio" id="tipo_sanguineo" name="Tipo Sanguineo" value="A+" required>A+<br>
+    <input type="radio" id="tipo_sanguineo" name="Tipo Sanguineo" value="A-" required>A-<br>
+    <input type="radio" id="tipo_sanguineo" name="Tipo Sanguineo" value="B+" required>B-<br>
+    <input type="radio" id="tipo_sanguineo" name="Tipo Sanguineo" value="B-" required>B-<br>
+    <input type="radio" id="tipo_sanguineo" name="Tipo Sanguineo" value="AB+" required>AB+<br>
+    <input type="radio" id="tipo_sanguineo" name="Tipo Sanguineo" value="AB-" required>AB-<br>
+    <input type="radio" id="tipo_sanguineo" name="Tipo Sanguineo" value="O+" required>O+<br>
+    <input type="radio" id="tipo_sanguineo" name="Tipo Sanguineo" value="O-" required>O-<br>
+    <br>
+
+
+    <label for="fumante">Fumante?</label><br>
+    <input type="radio" id="fumante" name="Fumante?" value="Sim" required>Sim<br>
+    <input type="radio" id="fumante" name="Fumante?" value="Não" required>Não<br>
+    <br>
+
+
+    <label for="alergia">Possui alergia?</label><br>
+    <input type="radio" id="alergia" name="Possui alergia?" value="Sim" required>Sim<br>
+     <input type="radio" id="alergia" name="Possui alergia?" value="Não" required>Não<br>
+     <label for="qual">Se sim, Qual?</label><br>
+     <input type="text" id="qual" name="Se sim, Qual?"><br>
+     <br>
+
+
+     <label for="medicamento">Toma algum medicamento?</label><br>
+     <input type="radio" id="medicamento" name="Toma algum medicamento?" value="Sim" required>Sim<br>
+     <input type="radio" id="medicamento" name="Toma algum medicamento?" value="Não" required>Não<br>
+     <label for="qual">Se sim, Qual?</label><br>
+     <input type="text" id="qual" name="Se sim, Qual?"><br>
+     <br>
+
+
+     <label for="alcool">Consome bebida alcóolica?</label><br>
+     <input type="radio" id="alcool" name="Consome bebida alcóolica?" value="Sim" required>Sim<br>
+     <input type="radio" id="alcool" name="Consome bebida alcóolica?" value="Não" required>Não<br>
+     <br>
+
+
+     <label for="contato">Contato:</label><br>
+     <input type="text" id="contato" name="Contato" required><br>
+     <br>
+
+     <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
